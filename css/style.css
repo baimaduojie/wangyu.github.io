@@ -13,7 +13,7 @@ body a{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Overlock', cursive;
 }
 p{
 	margin:0;
@@ -73,6 +73,25 @@ body a:hover{
     color: #C7C7C7;
     margin-top: 0.8em;
     letter-spacing: 6px;
+}
+.header-right span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #008b8b;
+    border-radius: 5px;
+}
+.header-right a{
+    color: #000;
+}
+.header-right a:hover{
+    text-decoration:none;
+    color: #fff;
 }
 ul.address {
     margin-top: 2em;
